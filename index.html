@@ -2192,23 +2192,28 @@
           <div class="form-sub">No commitment. Just a quick chat about your project.</div>
           <div class="form-row">
             <div class="fg">
-              <label class="fl">Your Name <span>*</span></label>
+              <label class="fl">Name <span>*</span></label>
               <input type="text" name="name" class="fi" placeholder="Rajesh Sharma" id="fname" required>
             </div>
             <div class="fg">
-              <label class="fl">Email Address <span>*</span></label>
-              <input type="email" name="email" class="fi" placeholder="rajesh@mybusiness.com" id="femail" required>
+              <label class="fl">Email <span>*</span></label>
+              <input type="email" name="email" class="fi" placeholder="rajesh@example.com" id="femail" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="fg">
+              <label class="fl">Business Type <span>*</span></label>
+              <input type="text" name="business_type" class="fi" placeholder="e.g. Restaurant, Gym" id="fbusinesstype"
+                required>
+            </div>
+            <div class="fg">
+              <label class="fl">Budget (Optional)</label>
+              <input type="text" name="budget" class="fi" placeholder="e.g. ₹5,000" id="fbudget">
             </div>
           </div>
           <div class="fg">
-            <label class="fl">WhatsApp / Phone</label>
-            <input type="tel" name="phone" class="fi" placeholder="+91 98765 43210" id="fphone">
-          </div>
-          <div class="fg">
-            <label class="fl">Project Details <span>*</span></label>
-            <textarea name="project_details" class="fta"
-              placeholder="Tell me about your business and what kind of website you need..." id="fdetails"
-              required></textarea>
+            <label class="fl">Message <span>*</span></label>
+            <textarea name="message" class="fta" placeholder="How can I help you..." id="fdetails" required></textarea>
           </div>
           <button type="submit" class="form-cta" id="formBtn">Let's Build Your Website →</button>
         </form>
